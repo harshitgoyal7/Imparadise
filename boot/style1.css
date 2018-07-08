@@ -1,0 +1,89 @@
+body{
+  font-family: 'Work Sans', sans-serif;
+}
+navbar  nav{
+  height: 50px;
+  background-color:rgba(68,24,24,1);
+}
+navbar h1{
+  float: left;
+  color: white;
+  margin-left: 10px;
+}
+
+navbar nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+navbar nav ul li {
+    background-color:rgba(68,24,24,1);
+  display: inline-block;
+  width: 120px;
+  height: 50px;
+  text-align: center;
+  float: right;
+  line-height: 49px;
+}
+
+navbar nav ul li a{
+  color: white;
+  display: block;
+}
+
+navbar nav ul li a:hover{
+  background-color:#663333;
+  color: #67996c;
+  text-decoration:none;
+}
+
+navbar nav ul ul{
+  display:none;
+}
+navbar nav ul li:hover >ul{
+  display: block;
+}
+
+#main{
+  height: 480px;
+  width: 100%;
+    background-image: url(shoes-instagram.jpg);
+  background-size:cover;
+    background-repeat: no-repeat;
+}
+#main h1{
+  color: white;
+  font-size: 1.9em;
+
+  //left: 200px;
+  padding-top: 60px;
+  text-align: center;
+  //background-color: red;
+}
+#main input[type="button"]{
+  display: block;
+  margin:0px auto;
+  margin-top: 170px;
+  background: #8e615a;
+  background-color: Transparent;
+  color: white;
+  padding: 15px;
+  border: 3px solid white;
+  cursor: pointer;
+
+}
+#main #bb{
+  display: block;
+  margin:0px auto;
+  margin-top: 170px;
+  background: #8e615a;
+  background-color: Transparent;
+  color: white;
+  padding: 15px;
+  border: 3px solid white;
+  cursor: pointer;
+  width: 170px;
+  font-weight: bold;
+
+}
