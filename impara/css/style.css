@@ -14,6 +14,9 @@ body{
 	height: 70px;
 	line-height: 70px;
 	background: #100e0e;
+	position: fixed;
+	top: 0;
+	z-index: 100;
 }
 
 #nav h1{
@@ -73,9 +76,10 @@ position: relative;
 	background: #777;
 }
 
-#main-content{
+.main-content{
 	width: 100%;
 	height: 600px;
+	margin-top: 70px !important;
 	background-repeat: no-repeat;
     background-size: cover;
     text-align: center; 
@@ -83,22 +87,27 @@ position: relative;
     line-height: 40px;   
 }
 
-#contact{
-	background: #8e615a;
+.main-content h1{
+	padding-top: 80px;
+}
+
+.main-contact{
+	text-align: -webkit-center;
+	margin-top: 130px;
+}
+
+.contact{
 	width: 150px;
 	height: 45px;
 	text-align: center;
-	margin: 0px auto;
-	margin-top: 150px;
 	color: white;
 	font-weight: 100;
 	background-color: Transparent;
-        background-repeat:no-repeat;
-        border: 3px solid white;
-        cursor: pointer;
-        overflow: hidden;
-        outline:none;
-     
+	background-repeat:no-repeat;
+	border: 3px solid white;
+	cursor: pointer;
+	overflow: hidden;
+	outline:none;
 }
 
 #contact a{
@@ -108,9 +117,9 @@ position: relative;
 
 #footer{
 	width: 100%;
-	height: 100px;
+	height: 70px;
 	background: #202020;
-	line-height: 100px;
+	line-height: 70px;
 
 }
 
@@ -211,6 +220,13 @@ form a{
 	background: red;
 }
 
+.contact-us{
+	margin-top: 70px;
+}
+
+.image-container{
+	text-align: center;
+}
 .address_contact {
     width: 50%;
     float: left;

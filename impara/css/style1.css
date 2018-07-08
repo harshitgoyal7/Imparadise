@@ -1,15 +1,17 @@
 #gallery{
 	margin: 30px 100px;
+	margin-top: 100px!important;
+
 }
 
 #gallery img{
 	width: 230px;
 	padding: 5px;
-	border: 1px solid #777;
+	border: 1px solid #dcdcdc;
 //	filter: grayscale(100%);
-    margin: 5px;
+    margin: 20px;
     transition: 0.45s;
-    box-shadow: 5px 5px grey;
+    box-shadow: 5px 5px #dcdcdc;
 }
 
 #gallery img:hover{
